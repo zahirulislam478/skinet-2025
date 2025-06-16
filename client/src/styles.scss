@@ -32,3 +32,13 @@ $customTheme: mat.define-theme();
 .mdc-notched-outline__notch{
   border-right-style: none !important;
 }
+
+.snack-error .mdc-snackbar__surface {
+  background-color: red !important;
+  color: white !important;
+}
+
+.snack-success .mdc-snackbar__surface {
+  background-color: green !important;
+  color: white !important;
+}
